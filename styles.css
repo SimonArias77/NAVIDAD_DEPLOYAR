@@ -1,0 +1,80 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y tipografía general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #d9534f;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección con la imagen y mensaje */
+#message-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#family-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#navidad-message {
+    font-size: 1.5em;
+    color: #5a5a5a;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilo del botón */
+#interaction {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#special-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #ff4500;
+    font-weight: bold;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.1em;
+    color: #777;
+}
